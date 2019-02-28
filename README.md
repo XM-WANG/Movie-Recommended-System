@@ -34,8 +34,8 @@ In this project, I create three commands for my boy(api reference:https://core.t
 * `/start`
 * `/rate`
   * A command to ask the application to present a movie for rating. On reciving this command, the Telegram bot script should:  
- a. Send a request to the server's `/get_unrated_movie` API with the user's `chat_id`
- b. On receiving the movie information from the server, send the user two messages:
+  a. Send a request to the server's `/get_unrated_movie` API with the user's `chat_id`  
+  b. On receiving the movie information from the server, send the user two messages:
     * A message containing the name of the movie, and the URL to the movie's page on IMDB
     * A message asking for the user's rating on this movie, with a custom keyboard
  
