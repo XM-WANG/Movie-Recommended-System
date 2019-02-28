@@ -40,7 +40,8 @@ In this project, I create three commands for my boy(api reference:https://core.t
     * A message asking for the user's rating on this movie, with a custom keyboard
   * When a movie rating is received, you should send a request to the server's /rate API to submit the rating
   * An example is shown below:
-  <div align=center><img src="https://github.com/XM-WANG/Movie-Recommended-System/blob/master/pic/rating.png"/></div>
-    
+  <center>
+   <div align=center><img width="45%" src="https://github.com/XM-WANG/Movie-Recommended-System/blob/master/pic/rating.png"/></div>
+  </center>  
  
  
