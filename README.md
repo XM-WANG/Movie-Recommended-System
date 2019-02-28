@@ -14,7 +14,7 @@ The system provides the following functions:
 2. Returns a movie that has not yet been rated by a user so that the user can provide his/her rating on the movie
 3. If enough ratings have been collected from a user, use the user-based collaborative filtering algorithm to generate recommended movies to the user  
 
- <div align=center><img src="https://github.com/XM-WANG/Movie-Recommended-System/blob/master/pic/system.png"/></div>
+ <div align=center><img width="90%" src="https://github.com/XM-WANG/Movie-Recommended-System/blob/master/pic/system.png"/></div>
   
 More details about how the system was implemented are described below.
 ## Dataset
