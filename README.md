@@ -31,7 +31,12 @@ If you are interested in this dataset, please check the README file (http://file
 The Telegram bot script bot.py is used to rely user input to the server, and the server's output back to the user.  
 
 In this project, I create three commands for my boy(api reference:https://core.telegram.org/bots#6-botfather). The user can use these three commands to interact with your recommender system.  
-* >/start
-* >/rate
-
+* `/start`
+* `/rate`
+ *A command to ask the application to present a movie for rating. On reciving this command, the Telegram bot script should:  
+ a. Send a request to the server's `/get_unrated_movie` API with the user's `chat_id`
+ b. On receiving the movie information from the server, send the user two messages:
+   *A message containing the name of the movie, and the URL to the movie's page on IMDB
+   *A message asking for the user's rating on this movie, with a custom keyboard
+ 
  
