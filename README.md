@@ -1,12 +1,13 @@
 # Movie-Recommended-System
 ## overview
 
-In this assignment, you will build a movie recommender system using some memory-based recommendation algorithms. The system should be deployed as a Telegram bot and a Web application server.
+I build a movie recommender system using some memory-based recommendation algorithms. The system is deployed as a Telegram bot and a Web application server.
 
-Your recommender system should at least consists of two parts:
+My recommender system consists of two parts:
 
-1.A python script bot.py that continues to receive user messages from Telegram. When a message from a user is received, it sends request(s) to the recommendation server, and formats a response to be sent back to the user via Telegram.
-A python script app.py that implements an HTTP server using Flask. It should provide different routes to accept requests to different functions (see more details below).
+ 1.A python script bot.py that continues to receive user messages from Telegram. When a message from a user is received, it sends request(s) to the recommendation server, and formats a response to be sent back to the user via Telegram.
+ 2.A python script app.py that implements an HTTP server using Flask. It should provide different routes to accept requests to different functions (see more details below).
+
 The system should provide the following functions:
 
 Accepts a new user identified by the chat_id
