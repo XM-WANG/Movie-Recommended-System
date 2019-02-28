@@ -38,6 +38,9 @@ In this project, I create three commands for my boy(api reference:https://core.t
    b. On receiving the movie information from the server, would send the user two messages:
     * A message containing the name of the movie, and the URL to the movie's page on IMDB
     * A message asking for the user's rating on this movie, with a custom keyboard
+  * When a movie rating is received, you should send a request to the server's /rate API to submit the rating
+  * An example is shown below:
+  <div align=center><img src="https://github.com/XM-WANG/Movie-Recommended-System/blob/master/pic/rating.png"/></div>
     
  
  
