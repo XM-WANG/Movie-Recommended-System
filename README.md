@@ -27,4 +27,11 @@ The dataset consists of 100,000 ratings on different movies by the users of the 
 * Data about the movies and the users
 
 If you are interested in this dataset, please check the README file (http://files.grouplens.org/datasets/movielens/ml-latest-small-README.html)
+## The Telegram Bot Script
+The Telegram bot script bot.py is used to rely user input to the server, and the server's output back to the user.  
 
+In this project, I create three commands for my boy(api reference:https://core.telegram.org/bots#6-botfather). The user can use these three commands to interact with your recommender system.  
+* >/start
+* >/rate
+
+ 
